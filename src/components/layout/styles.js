@@ -6,7 +6,19 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "center"
     },
     content: {
-        padding: "40px 200px"
+        padding: "40px 200px",
+        '@media (max-width:1600px)': {
+            padding: "40px 100px",
+            '& img': {
+                width: "80%"
+            }
+        },
+        '@media (max-width:900px)': {
+            padding: "40px 50px",
+            '& img': {
+                width: "60%"
+            }
+        }
     },
     header: {
         display: "flex",
