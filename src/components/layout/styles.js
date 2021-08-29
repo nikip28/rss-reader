@@ -6,7 +6,7 @@ const useStyles = makeStyles((theme) => ({
         textAlign: "center"
     },
     content: {
-        padding: "40px"
+        padding: "40px 200px"
     },
     header: {
         display: "flex",
